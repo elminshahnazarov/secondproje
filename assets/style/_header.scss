@@ -1,0 +1,34 @@
+header{
+    .container{
+        .navbar-wrapper{
+            display: flex;
+            justify-content: space-between;
+            height: 100px;
+            align-items: center;
+            .wrapper-image{
+                width: 230px;
+                height: 60px;
+            }
+            .wrapper-logo{
+                display: none;
+            }
+            .navbar{
+                ul{
+                    display: flex;
+                    gap: 30px;
+                    li{
+                        a{
+                            font-size: 20px;
+                            font-weight: 500;
+                            color: #173261;
+                            line-height: 30px;
+                        }
+                    }
+                }
+            }
+            .navbar-mobile{
+                display: none;
+            }
+        }
+    }
+}
